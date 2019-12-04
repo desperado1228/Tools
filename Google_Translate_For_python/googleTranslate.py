@@ -26,4 +26,6 @@ class GoogleTranslate(object):
 if __name__ == '__main__':
     translation = GoogleTranslate()
     translation.get_translation()
+    print(translation.query_string)
+    print("\n")
     print(translation.result)
